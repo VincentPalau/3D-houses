@@ -1,4 +1,4 @@
-# 3D-houses
+# 3D House Project
 
 ## Description
 
@@ -10,6 +10,16 @@ The purpose of this project is to write a program in Python to plot a property (
 - Read and use geoTIFFs
 - Render a 3D plot
 - Read and use the shapefile format
+
+## Timeline
+
+- Duration: 2 weeks
+- Deadline: 09/03/22 13:30 AM
+
+## Contributors
+
+- Vincent Palau
+- BeCode Team Members and Coaches
 
 ## Main libraries used for this project
 
@@ -24,8 +34,3 @@ The purpose of this project is to write a program in Python to plot a property (
 - Optimize solution to have faster results
 - Provide features like house area, number of floors, presence of a pool, neighborhood vegetation, etc.
 - Combine DSM (Digital Surface Model) and DTM (Digital Terrain Model) to improve visualization
-
-## Contributors
-
-- Vincent Palau
-- BeCode Team Members and Coaches
