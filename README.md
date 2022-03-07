@@ -28,6 +28,7 @@ The purpose of this project is to write a program in Python to plot a property (
 - pandas 1.4.1
 - plotly 5.6.0
 - rasterio 1.2.10
+- requests 2.27.1
 
 ## Further Improvements
 
