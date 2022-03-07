@@ -20,11 +20,11 @@ def get_coordinates():
     return x, y
 
 def create_window(x, y):
-    '''Create a window around building'''
-    left = x - 100
-    right = x + 100
-    top = y + 100
-    bottom = y - 100
+    '''Create a window around the building to plot the building with its surroundings'''
+    left = x - 150
+    right = x + 150
+    top = y + 150
+    bottom = y - 150
     return left, right, top, bottom
 
 def plot_2D(x, y, left, right, top, bottom):
@@ -98,8 +98,17 @@ def interactive_3D(x, y , left, right, top, bottom):
             fig = go.Figure(data=go.Surface(x=X, y=Y, z=surf))
             fig.show()
     
+# obtain coordinates of a building from its address
 x, y = get_coordinates()
+
+# create a window to plot the building with its surroundings
 left, right, top, bottom = create_window(x, y)
+
+# diplay the building in 2D from LIDAR data
 plot_2D(x, y, left, right, top, bottom)
+
+# plot the building in 3D using matplotlib
 plot_3D(x, y, left, right, top, bottom)
+
+# plot the building in an interactive 3D display using plotly
 interactive_3D(x, y, left, right, top, bottom)
